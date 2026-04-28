@@ -1,87 +1,95 @@
 # Yojana Mitra AI 3.0
 
-AI Powered Government Welfare Scheme Recommendation Platform built for Hackathon.
+AI-powered Welfare Scheme Recommendation System built using Flask, SQLite, HTML, CSS and JavaScript.
 
-This project helps citizens quickly discover government schemes based on:
+This project helps users find eligible government schemes based on:
 
 - Age
 - Income
-- Occupation
-- Eligibility
-- Smart AI Suggestions
+- Category / Occupation
 
 It also includes:
 
-- Admin Panel
-- Dashboard Analytics
+- Voice Assistant
 - AI Chat Assistant
+- Dashboard Analytics
+- Admin Panel
 - SQLite Database
-- Professional UI
 
 
 
-# Problem Statement
+# Features
 
-Many people do not know which government schemes they are eligible for.
+## Home Page
 
-Citizens often face:
-
-- Lack of awareness
-- Language barriers
-- Complex eligibility rules
-- Difficulty finding correct schemes
-- No centralized smart platform
-
-
-
-# Our Solution
-
-Yojana Mitra AI 3.0 solves this problem using AI based matching.
-
-Users enter simple details like:
+Users enter:
 
 - Age
-- Income
+- Annual Income
 - Occupation
 
-System instantly recommends matching schemes.
+Then system recommends matching welfare schemes.
 
 
 
-# Main Features
+## Smart Scheme Matching
 
-## User Portal
+Based on:
 
-- Enter age
-- Enter annual income
-- Select occupation
-- Get AI recommended schemes
-- Eligibility score shown
+- Age eligibility
+- Income limit
+- Category type
+
+System gives:
+
+- Recommended schemes
+- Eligibility score percentage
+
+
+
+## Voice Assistant
+
+Users can speak:
+
+I am a farmer age 45 income 2 lakh
+
+System understands voice input and helps users quickly.
+
+Supports multiple languages:
+
+- English
+- Hindi
+- Kannada
+- Tamil
+- Telugu
+- Marathi
+- Bengali
+- Gujarati
+- Punjabi
 
 
 
 ## AI Chat Assistant
 
-Users can ask naturally:
+Users can ask:
 
-- I am farmer age 45
-- I am student income 2 lakh
+- I am student
+- I am farmer
 - Senior citizen schemes
 
-System replies with scheme suggestions.
+System replies with best suggestions.
 
 
 
 ## Dashboard
 
-Professional dashboard includes:
+Displays:
 
-- Total users
-- Total matches
-- Success rate
-- Top category
-- Popular categories graph
-- Insights
+- Total Users
+- Matches Generated
+- Success Rate
+- Popular Categories
+- System Insights
 
 
 
@@ -90,36 +98,34 @@ Professional dashboard includes:
 Admin can:
 
 - Add new schemes
-- Manage schemes
-- View all records
-- Check system status
+- View all schemes
+- Manage data
 
 
 
-# Tech Stack
-
-## Frontend
-
-- HTML
-- CSS
-- Responsive UI
-- Professional Layout
-
-## Backend
+# Technologies Used
 
 - Python
-- Flask Framework
-
-## Database
-
+- Flask
 - SQLite
+- HTML5
+- CSS3
+- JavaScript
+- Speech Recognition API
 
 
 
 # Project Structure
 
-```text
-YojanaMitraAI/
-app.py
-schemes.db
+app.py  
+schemes.db  
 README.md
+
+
+
+# How to Run
+
+## Install Flask
+
+```bash
+pip install flask
