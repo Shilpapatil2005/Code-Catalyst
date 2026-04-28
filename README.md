@@ -1,110 +1,125 @@
-# Yojana Mitra AI
+# Yojana Mitra AI 3.0
 
-## Smart Government Scheme Matcher for Karnataka Citizens
+AI Powered Government Welfare Scheme Recommendation Platform built for Hackathon.
 
-Yojana Mitra AI is a hackathon project developed to help citizens quickly identify government welfare schemes they may be eligible for. Many people miss benefits because scheme information is scattered across multiple websites and eligibility rules are difficult to understand.
-
-Our platform simplifies this process by allowing users to enter basic personal details such as age, annual income, gender, and occupation. Based on the entered information, the system instantly recommends suitable government schemes.
-
-## Problem Statement
-
-Many citizens are unaware of welfare schemes available to them. As a result:
-
-- Eligible people miss financial support
-- Students miss scholarships
-- Farmers miss subsidy schemes
-- Women miss empowerment opportunities
-- Senior citizens miss pension benefits
-- Information is difficult to access and understand
-
-## Our Solution
-
-Yojana Mitra AI provides a smart and user-friendly platform where citizens can discover schemes in seconds using personalized recommendations.
-
-Users simply enter:
+This project helps citizens quickly discover government schemes based on:
 
 - Age
 - Income
-- Gender
+- Occupation
+- Eligibility
+- Smart AI Suggestions
+
+It also includes:
+
+- Admin Panel
+- Dashboard Analytics
+- AI Chat Assistant
+- SQLite Database
+- Professional UI
+
+
+
+# Problem Statement
+
+Many people do not know which government schemes they are eligible for.
+
+Citizens often face:
+
+- Lack of awareness
+- Language barriers
+- Complex eligibility rules
+- Difficulty finding correct schemes
+- No centralized smart platform
+
+
+
+# Our Solution
+
+Yojana Mitra AI 3.0 solves this problem using AI based matching.
+
+Users enter simple details like:
+
+- Age
+- Income
 - Occupation
 
-The system checks eligibility logic and shows matching schemes instantly.
+System instantly recommends matching schemes.
 
-## Key Features
 
-### User Portal
-- Simple form-based interface
-- Fast eligibility matching
-- Personalized recommendations
 
-### Admin Panel
-- Add new schemes dynamically
-- Delete outdated schemes
-- Manage database records
+# Main Features
 
-### Dashboard
-- Total schemes count
-- Category-wise scheme statistics
-- Quick system overview
+## User Portal
 
-### Smart Recommendation Engine
-- Suggests schemes based on user profile
-- Faster than manually searching multiple websites
+- Enter age
+- Enter annual income
+- Select occupation
+- Get AI recommended schemes
+- Eligibility score shown
 
-## Example Schemes Included
 
-- PM-KISAN
-- SSP Scholarship Karnataka
-- Old Age Pension
-- PMAY Housing Scheme
-- Udyogini Scheme
-- Skill India Program
 
-## Tech Stack
+## AI Chat Assistant
 
-### Frontend
+Users can ask naturally:
+
+- I am farmer age 45
+- I am student income 2 lakh
+- Senior citizen schemes
+
+System replies with scheme suggestions.
+
+
+
+## Dashboard
+
+Professional dashboard includes:
+
+- Total users
+- Total matches
+- Success rate
+- Top category
+- Popular categories graph
+- Insights
+
+
+
+## Admin Panel
+
+Admin can:
+
+- Add new schemes
+- Manage schemes
+- View all records
+- Check system status
+
+
+
+# Tech Stack
+
+## Frontend
+
 - HTML
 - CSS
+- Responsive UI
+- Professional Layout
 
-### Backend
+## Backend
+
 - Python
-- Flask
+- Flask Framework
 
-### Database
+## Database
+
 - SQLite
-  
-## How It Works
 
-1. User opens the website
-2. Enters personal details
-3. System processes eligibility conditions
-4. Matching schemes are displayed instantly
-5. Admin can manage schemes through dashboard
 
-## Pages Available
 
-- `/` Home Page
-- `/match` Result Page
-- `/admin` Admin Panel
-- `/dashboard` Dashboard
+# Project Structure
 
-## Future Scope
-
-- Kannada language support
-- Voice assistant
-- Aadhaar verification
-- Mobile application
-- Real-time government API integration
-- Application status tracking
-- AI chatbot assistance
-
-## Impact
-
-This project aims to ensure that no eligible citizen misses government support due to lack of awareness.
-
-## Run Locally
-
-Install Flask:
-
-```bash
-pip install flask
+```text
+YojanaMitraAI/
+app.py
+schemes.db
+README.md
