@@ -1,10 +1,10 @@
-Yojana Mitra AI
+# Yojana Mitra AI
 
-Smart Government Scheme Matcher for Karnataka Citizens
+## Smart Government Scheme Matcher for Karnataka Citizens
 
-Yojana Mitra AI is a hackathon project designed to help citizens quickly discover government welfare schemes they may be eligible for. Many people miss benefits because information is scattered across multiple websites and eligibility rules are difficult to understand.
+Yojana Mitra AI is a hackathon project developed to help citizens quickly identify government welfare schemes they may be eligible for. Many people miss benefits because scheme information is scattered across multiple websites and eligibility rules are difficult to understand.
 
-This platform simplifies the process by allowing users to enter basic personal details such as age, annual income, gender, and occupation. Based on the entered profile, the system recommends suitable government schemes instantly.
+Our platform simplifies this process by allowing users to enter basic personal details such as age, annual income, gender, and occupation. Based on the entered information, the system instantly recommends suitable government schemes.
 
 ## Problem Statement
 
@@ -13,74 +13,98 @@ Many citizens are unaware of welfare schemes available to them. As a result:
 - Eligible people miss financial support
 - Students miss scholarships
 - Farmers miss subsidy schemes
+- Women miss empowerment opportunities
 - Senior citizens miss pension benefits
 - Information is difficult to access and understand
 
 ## Our Solution
 
-Yojana Mitra AI provides a simple web platform where users enter their details and receive personalized scheme recommendations in seconds.
+Yojana Mitra AI provides a smart and user-friendly platform where citizens can discover schemes in seconds using personalized recommendations.
 
-## Features
+Users simply enter:
 
-- Easy-to-use interface
-- Instant scheme matching
-- Karnataka-focused implementation
-- Supports multiple user categories:
-  - Students
-  - Farmers
-  - Workers
-  - Women
-  - Senior Citizens
-- Responsive and clean UI
-- Expandable for future AI integration
+- Age
+- Income
+- Gender
+- Occupation
+
+The system checks eligibility logic and shows matching schemes instantly.
+
+## Key Features
+
+### User Portal
+- Simple form-based interface
+- Fast eligibility matching
+- Personalized recommendations
+
+### Admin Panel
+- Add new schemes dynamically
+- Delete outdated schemes
+- Manage database records
+
+### Dashboard
+- Total schemes count
+- Category-wise scheme statistics
+- Quick system overview
+
+### Smart Recommendation Engine
+- Suggests schemes based on user profile
+- Faster than manually searching multiple websites
 
 ## Example Schemes Included
 
-- SSP Scholarship Karnataka
 - PM-KISAN
+- SSP Scholarship Karnataka
 - Old Age Pension
+- PMAY Housing Scheme
 - Udyogini Scheme
-- PMAY Housing Assistance
 - Skill India Program
 
 ## Tech Stack
 
-- Python
-- Flask
+### Frontend
 - HTML
 - CSS
 
+### Backend
+- Python
+- Flask
+
+### Database
+- SQLite
+  
 ## How It Works
 
-1. User enters:
-   - Age
-   - Income
-   - Gender
-   - Occupation
+1. User opens the website
+2. Enters personal details
+3. System processes eligibility conditions
+4. Matching schemes are displayed instantly
+5. Admin can manage schemes through dashboard
 
-2. System checks eligibility logic
+## Pages Available
 
-3. Recommended schemes are displayed instantly
+- `/` Home Page
+- `/match` Result Page
+- `/admin` Admin Panel
+- `/dashboard` Dashboard
 
 ## Future Scope
 
 - Kannada language support
 - Voice assistant
-- Chatbot guidance
-- Live government API integration
+- Aadhaar verification
 - Mobile application
-- Downloadable eligibility report
+- Real-time government API integration
+- Application status tracking
+- AI chatbot assistance
 
 ## Impact
 
 This project aims to ensure that no eligible citizen misses government support due to lack of awareness.
 
-## Team
-
-Code-Catalyst
-
 ## Run Locally
+
+Install Flask:
 
 ```bash
 pip install flask
-py app.py
